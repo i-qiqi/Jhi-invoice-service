@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.zero.invoice",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "Invoice",
+    "packageName": "com.zero.invoice",
+    "packageFolder": "com/zero/invoice",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YWJhZTRlNzYyNGQ4OTg0Mjk0OTY3MDc3NzY1ODNkYjg0NTg0MGMyNmMxMDYxNjM5YWQzZDc3YWE0NDE0ZGIyYmQyZWI2YjU2NTAwMzNkMDNjZDA5NDg2MjZhNzdjZWU0YmUzM2E0MTgyMTk2OTk5NTk4ZjM3M2Q1YjhiMjZjZDU=",
+    "enableTranslation": true,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "zh-cn"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
