@@ -39,6 +39,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .antMatchers("/test/**");
     }
 
+    /**
+     * Enable `STATELESS` session policy. It makes our our application unable
+     * to create and maintain any sessions.Every request is authenticated and
+     * authorized based on the token.
+     * @param http
+     * @throws Exception
+     */
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http
